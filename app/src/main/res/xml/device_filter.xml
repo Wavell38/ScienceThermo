@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RP2040 - CDC (USB-Serial). VID officiel Raspberry Pi = 0x2E8A  -->
+    <!-- Les PIDs varient (0005, 0009, 000A, …) selon le firmware.
+         On peut donc matcher sur la classe pour être large. -->
+    <usb-device vendor-id="0x2E8A" class="2" subclass="2" protocol="1"/>
+    <!-- Fallback : tout périphérique CDC-ACM -->
+    <usb-device class="2" subclass="2" protocol="1" />
+</resources>
