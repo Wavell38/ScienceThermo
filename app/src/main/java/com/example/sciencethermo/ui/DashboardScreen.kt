@@ -92,26 +92,26 @@ fun DashboardScreen(
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Spacer(Modifier.width(4.dp))
-                Text("Point de rosée : " + rose, fontSize = 12.sp, fontWeight = FontWeight.Normal)
+                Text("Point de rosée : $rose", fontSize = 12.sp, fontWeight = FontWeight.Normal)
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Spacer(Modifier.width(4.dp))
-                Text("Pression vapeur saturante : " + vapSat, fontSize = 12.sp, fontWeight = FontWeight.Normal)
+                Text("Pression vapeur saturante : $vapSat", fontSize = 12.sp, fontWeight = FontWeight.Normal)
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Spacer(Modifier.width(4.dp))
-                Text("Pression vapeur réelle : " + vapReal, fontSize = 12.sp, fontWeight = FontWeight.Normal)
+                Text("Pression vapeur réelle : $vapReal", fontSize = 12.sp, fontWeight = FontWeight.Normal)
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Spacer(Modifier.width(4.dp))
-                Text("Humidité absolue : " + humAbs, fontSize = 12.sp, fontWeight = FontWeight.Normal)
+                Text("Humidité absolue : $humAbs", fontSize = 12.sp, fontWeight = FontWeight.Normal)
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("Rapport de mélange : " + rapport, fontSize = 12.sp, fontWeight = FontWeight.Normal)
+                Text("Rapport de mélange : $rapport", fontSize = 12.sp, fontWeight = FontWeight.Normal)
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Spacer(Modifier.width(4.dp))
-                Text("Enthalpie de l’air : " + enthalpie, fontSize = 12.sp, fontWeight = FontWeight.Normal)
+                Text("Enthalpie de l’air : $enthalpie", fontSize = 12.sp, fontWeight = FontWeight.Normal)
             }
             Spacer(Modifier.height(50.dp))
         }
